@@ -21,7 +21,27 @@ The Diabetes prediction dataset consists of medical and demographic data from pa
 1. Predict the diabetes labels for the test set using the trained model.
 2. Calculate performance metrics, including accuracy, precision, recall, and F1-score.
 3. Print the performance metrics.
+
 Results:
+
 The analysis of the diabetes prediction dataset using a decision tree classifier yielded the following results:
-• Accuracy: 0.9716 • Precision: 0.9873 • Recall: 0.6741
+
+• Accuracy: 0.9716
+• Precision: 0.9873
+• Recall: 0.6741
 • F1-score: 0.8012
+
+# Decision Tree Visualization:
+
+The tree shows the splitting criteria at each node based on the selected features.
+![image](https://github.com/Nawaf-Aljalaud/Machine-Learning-Model-to-Predict-Diabetes-Patients/assets/148896098/be2dd60b-cc1f-43f5-b076-93a202cbd577)
+
+# Insights and Observations:
+
+1. The decision tree model achieved a high accuracy of 97.16%, indicating its effectiveness in predicting diabetes based on the given features.
+2. The precision score of 98.73% suggests that the model performs well in correctly identifying positive diabetes cases.
+3. The recall score of 67.41% indicates that the model captures a moderate proportion of positive diabetes cases.
+4. The F1-score of 80.12% represents a balance between precision and recall, indicating good performance.
+5. The information gain analysis revealed that features like HbA1c and blood glucose levels have the highest importance in the decision tree, followed by age and BMI. Other features, such as gender and smoking history, had negligible information
+gain and did not contribute much to the prediction.
+
